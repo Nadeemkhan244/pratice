@@ -1,0 +1,186 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>contact</title>
+    </head>
+    <style>
+  h2{
+      text-align: center;
+    }
+    h1{
+        position: fixed;
+        left: 500px;
+        top: 0px;
+        font-size: 30px;
+    }
+    table,td,th{
+        border-collapse: collapse;
+        width: 1200px;
+        border: 3px solid black;
+        padding: 8px;
+    }
+    th{
+        color: wheat;
+    }
+    #r1:hover{
+        background-color: #48181834;
+    }
+    #r2:hover{
+        background-color: #48181834;
+    }
+    #r3:hover{
+        background-color: #48181834;
+    }
+   #r1{
+    background-color: rgb(89, 22, 222);
+   }
+   #r2{
+    background-color: rgb(73, 81, 198);
+   }
+   #r3{
+    background-color: rgb(133, 128, 190);
+   }
+    td,th{
+        text-align: left;
+    }
+   input.submit:hover{
+    background-color: blue;
+   }
+   input:hover{
+    background-color: rgb(222, 224, 216);
+   }
+   input.submit:active{
+    background-color: antiquewhite;
+   }
+   input.submit:focus{
+    background-color: orchid;
+   }
+    select,input{
+            margin: 10px;
+            background-color: rgb(170, 234, 234);
+        }
+        input:focus{
+            background-color: black;
+            color: white;
+        }
+        form{
+            position: relative;
+            top: 10px;
+            left: 300px;
+            background-color: yellow;
+            text-align: center;
+            width: 500px; 
+            height: 500px;
+        }
+
+        #name{
+            background-image: url(./images/nad.jpg);
+            background-size:contain;
+            background-repeat:no-repeat;
+            padding-left: 30px;
+        }
+        option{
+            background-color: rgb(52, 8, 245);
+        }
+       
+        H4{
+            background-color: black;
+            color: white;
+        }
+   div{
+     word-spacing: 50px;
+        text-align: center;
+        background-color: wheat;
+        font-size: 10px; 
+        font-weight: bold;
+        padding-top: 12px;
+        margin-top: 10px;
+        box-shadow: 0px 3px 0px 0px #481818;
+    }
+    a:link{
+    color: purple;
+}
+a:visited{
+    color: blue;
+}
+    body{
+        background-color: rgb(179, 179, 166);
+    }
+    *{
+        font-size: 20px;
+    }
+   
+    
+</style>
+    <body>
+        <h1>contact us</h1><br><br>
+   <div > <a  href="index.html">Home</a>
+    
+        <a   href="skills.html" >Skills </a>
+
+    <a  href="./project.html">Projects </a><br><br></div>
+       
+        <img src="././images/emailpic.png"width="100"height="100"alt="emil pic"><br>
+        <a href="milto/: Nadeemkhna@google.com">Nadeem@gmail.com</a><br><br> 
+        <h3>whatts app</h3>
+        <img src="././images/whattapp.avif"width="100"height="100"alt="whattapp pic">
+        
+        <p>092----------</p><br>
+    
+        <table>
+            <TR id="r1">
+            <th>No</th>
+            <th>Mobile No.</th>
+            <th>Phone No.</th>
+        </TR>
+        <tr id="r2">
+            <td >1.</td>
+            <td>0343-------</td>
+            <td>092-------</td>
+        </tr>
+        <tr id="r3">
+            <td>2.</td>
+            <td>0344-------</td>
+            <td>092-------</td>
+        </tr>
+        </table>
+        <form>
+            
+             <h2>EVENT REGISTRATION FORM</h2><br>
+             <label for=" first name">Name :</label>
+             <input type="text"name="username"size="10"maxlength="30"placeholder="First name" id="name"/>
+             <label for=" second name"></label>
+             <input type="text"name="username"size="15"maxlength="30"placeholder="last name"/>  <br>
+             <label for=" company">Company :</label>
+             <input type="text"name="company"size="31"maxlength="100"placeholder="company"/> <br>
+             <label for="email">Email :</label>  
+             <input type="email"name="email"placeholder="example@email.com"requaired="requaired"
+             size="34"/>  <br> 
+             <label for="password">Password :</label>  
+             <input type="password"name="password"placeholder="password"requaired="requaired"maxlength="10"
+             size="30"/>  <br>
+             <label for ="phone">Phone :</label>
+             <input type="text"name="number"placeholder="phone number"size="34"maxlength="11"><br>
+             <label for="subject">Subject :</label>
+             <select name="subject">
+                 <option>choose Option</option>
+                 <option value="c++">C++</option>
+                 <option value="html">html</option>
+                 <option value="css">css</option>
+             </select>
+             <h4>Are you existing customer ?</h4>
+             <label for="selecton"></label>
+             <input type="radio"name="yes"checked="checked" />yes
+             <label for="selecton"></label>
+             <input type="radio"name="no"checked="checked" />No<br>
+             <label for="register"></label>
+             <input type="submit"name="register"value="register" class="submit"/>
+            
+     
+         </form>
+    
+    </body>
+    </html>
